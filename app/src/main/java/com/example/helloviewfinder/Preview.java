@@ -44,7 +44,7 @@ public class Preview extends SurfaceView implements SurfaceHolder.Callback {
         		  
         		  if (mDrawOnTop.mBitmap == null)
         		  {
-        			  // Initialize the draw-on-top companion
+        			  // Initialize the draw-on-top companion.
         			  Camera.Parameters params = camera.getParameters();
         			  mDrawOnTop.mImageWidth = params.getPreviewSize().width;
         			  mDrawOnTop.mImageHeight = params.getPreviewSize().height;
